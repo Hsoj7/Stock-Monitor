@@ -1,13 +1,35 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.App-header {
-  min-height: 100vh;
+.home,
+.portfolio,
+.search_company {
   display: flex;
-  flex-direction: column;
+  /* height: 90vh; */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
 }
+
+.portfolio {
+  /* background-image: url('/public/images/img-2.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  font-size: 100px;
+}
+
+.search_company {
+  /* background-image: url('/public/images/img-1.jpg'); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #000;
+  font-size: 40px;
+}
+
