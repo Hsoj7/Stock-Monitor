@@ -15,7 +15,7 @@ function App() {
           {/* <Route path='/' exact /> */}
           <Route path='/' exact component={Home} />
           <Route path='/portfolio' component={Portfolio} />
-          <Route path='/search_sompany' component={Search_Company} />
+          <Route path='/search_company' component={Search_Company} />
         </Switch>
       </Router>
     </>

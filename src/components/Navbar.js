@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -12,7 +12,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Stocker &nbsp;<i class='fas fa-chart-line' />
+            Stocker &nbsp;<i className='fas fa-chart-line' />
           </Link>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
@@ -22,7 +22,7 @@ function Navbar() {
               <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>Portfolio</Link>
             </li>
             <li className='nav-item'>
-              <Link to='/search_sompany' className='nav-links' onClick={closeMobileMenu}>Search Company</Link>
+              <Link to='/search_company' className='nav-links' onClick={closeMobileMenu}>Search Company</Link>
             </li>
 
             {/* <li>
